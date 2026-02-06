@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Thi Trắc Nghiệm Hóa Học 2025</title>
+    <!-- Quill CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#4f46e5',
+              secondary: '#10b981',
+              danger: '#ef4444',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+      /* Custom styles for Quill content output */
+      .prose img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        border-radius: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+      .prose p {
+        margin-bottom: 0.5em;
+      }
+      .ql-editor {
+        min-height: 120px;
+        font-size: 16px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "mammoth": "https://esm.sh/mammoth@1.6.0",
+    "quill": "https://esm.sh/quill@2.0.2",
+    "peerjs": "https://esm.sh/peerjs@1.5.2"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-900 antialiased selection:bg-primary/20">
+    <div id="root"></div>
+  </body>
+</html>
